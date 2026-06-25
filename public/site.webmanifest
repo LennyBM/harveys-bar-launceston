@@ -1,0 +1,15 @@
+{
+  "name": "Harvey's Bar",
+  "short_name": "Harvey's Bar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#140E1F",
+  "theme_color": "#C8A24B",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
