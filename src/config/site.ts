@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "harveys-bar-launceston",
   "name": "Harvey's Bar",
   "shortName": "Harvey's Bar",
   "tagline": "The new chapter of Harvey's — a cosy Launceston bar with live music, cocktails & real ale",
-  "intro": "Pub / bistro food with a relaxed, all-day feel. Legacy offering included home-cooked meals, daily specials and Sunday roasts; the new owners are reintroducing small 'lite bites' alongside drinks. A cu",
+  "intro": "Pub / bistro food with a relaxed, all-day feel. Legacy offering included home-cooked meals, daily specials and Sunday roasts; the new owners are reintroducing small 'lite bites' alongside drinks.",
   "type": "Bar",
   "established": "",
   "siteUrl": "https://harveys-bar-launceston.vercel.app",
@@ -218,33 +218,26 @@ export const site: SiteConfig = {
     "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
-    "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg",
-    "img-07.jpg",
     "img-08.jpg",
-    "img-09.jpg",
     "img-10.jpg",
     "img-11.jpg",
     "img-12.jpg",
     "img-13.jpg",
     "img-14.jpg",
     "img-15.jpg",
-    "img-16.jpg",
     "img-17.jpg",
-    "img-18.jpg",
     "img-19.jpg",
-    "img-20.jpg",
-    "img-21.jpg"
+    "img-20.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-12.jpg",
   "featured": [
     "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
-    "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg"
+    "img-00.jpg",
+    "img-08.jpg"
   ],
   "videoUrls": [
     "https://www.instagram.com/reel/DZ2X_vCs5yz/",
@@ -253,6 +246,26 @@ export const site: SiteConfig = {
     "https://www.instagram.com/reel/DZpmDRlMjyi/",
     "https://www.instagram.com/reel/DZm_psJgnLT/"
   ],
+  "focal": {
+    "img-00.jpg": "50% 40%",
+    "img-01.jpg": "50% 60%",
+    "img-02.jpg": "50% 70%",
+    "img-05.jpg": "35% 55%",
+    "img-08.jpg": "45% 60%",
+    "img-11.jpg": "50% 45%",
+    "img-12.jpg": "50% 60%",
+    "img-13.jpg": "55% 60%",
+    "img-14.jpg": "55% 60%",
+    "img-15.jpg": "35% 65%",
+    "img-17.jpg": "65% 35%",
+    "img-19.jpg": "50% 65%",
+    "img-20.jpg": "50% 60%"
+  },
+  "design": {
+    "display": "coast",
+    "hero": "anchor",
+    "order": "food-led"
+  },
   "theme": {
     "mode": "dark",
     "primary": "#C8A24B",
